@@ -1,0 +1,22 @@
+{
+  "name": "@readmeforge/cli",
+  "version": "0.1.0",
+  "description": "Command-line companion for ReadmeForge",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "readmeforge": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@readmeforge/core": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
